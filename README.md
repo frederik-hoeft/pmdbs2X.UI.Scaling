@@ -5,7 +5,7 @@ _This is the solution to [this](https://stackoverflow.com/questions/63448372/ava
 
 To use this code you have to:
 
- 1. Derive your application main `Window` from `ScalableWindow` and set implement the resizing events [like in the provided example](https://github.com/frederik-hoeft/pmdbs2X.UI.Scaling/blob/main/pmdbs2X/UI/Views/MainWindow.axaml.cs).
+ 1. Derive your application main `Window` from `ScalableWindow` and implement the resizing events [like in the provided example](https://github.com/frederik-hoeft/pmdbs2X.UI.Scaling/blob/main/pmdbs2X/UI/Views/MainWindow.axaml.cs).
  (I put a `Panel` in the bottom right corner of my window to be used for resizing, you'll figure it out.)
 
  2. Then implement `IViewModel` in the corresponding view model (see [the example](https://github.com/frederik-hoeft/pmdbs2X.UI.Scaling/blob/main/pmdbs2X/UI/ViewModels/MainWindowViewModel.cs)).
